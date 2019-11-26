@@ -4,4 +4,4 @@ Extract LinkedIn profiles info.
 
 ## Example
 
-https://linkedin-extractor.herokuapp.com/
+https://profile-extractor.herokuapp.com/
