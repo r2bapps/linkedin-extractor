@@ -1,0 +1,48 @@
+{
+  "name": "linkedin-extractor",
+  "version": "0.0.1",
+  "description": "Extract LinkedIn profiles info",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --watch server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r2bapps/linkedin-extractor.git"
+  },
+  "keywords": [
+    "linkedin",
+    "profile",
+    "cv",
+    "resume",
+    "pdf",
+    "download"
+  ],
+  "author": "R2B Apps",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/r2bapps/linkedin-extractor/issues"
+  },
+  "homepage": "https://github.com/r2bapps/linkedin-extractor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json-pretty-html": "^1.1.6",
+    "md5": "^2.2.1",
+    "node-json2html": "^1.2.0",
+    "scrapedin": "^1.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "bundledDependencies": [
+    "body-parser",
+    "dotenv",
+    "express",
+    "md5",
+    "node-json2html",
+    "scrapedin"
+  ]
+}

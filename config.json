@@ -1,0 +1,7 @@
+{
+  "email": "<NO EMAIL ADDED>",
+  "password": "<NO PASSWORD ADDED>",
+  "puppeteerArgs": { "args": ["--no-sandbox"] },
+  "isHeadless": true,
+  "hasToLog": true
+}

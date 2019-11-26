@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/fonts-min.css" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="center-screen">
+    <div id="container" class="container">
+      <form action="/crawl-form" method="POST">
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="username" name="username" placeholder="Your LinkedIn email...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+            <input type="password" id="password" name="password" placeholder="Your LinkedIn password...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="profile" name="profile" placeholder="LinkedIn profile URL...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+              <select id="theme" name="theme" value="basic">
+                  <option value="" disabled selected>Select theme</option>
+                  <option value="json">JSON</option>
+                  <option value="basic">Basic</option>
+              </select>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" id="submit" value="Download">
+        </div>
+      </form>
+    </div>
+    <div id="lds-facebook" class="lds-facebook"><div></div><div></div><div></div></div>
+  </div>
+
+  <script>
+    document.getElementById("submit").onclick=function() {
+       document.getElementById("lds-facebook").style.display='inline-block';
+       document.getElementById("container").style.display='none';
+    }
+ </script>
+
+</body>
+
+</html>

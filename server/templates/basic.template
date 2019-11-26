@@ -1,0 +1,15 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/fonts-min.css" rel="stylesheet">
+  <link href="./css/basic.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="center-screen">
+    @insert@
+  </div>
+</body>
+
+</html>

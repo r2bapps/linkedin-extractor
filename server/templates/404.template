@@ -1,0 +1,18 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/fonts-min.css" rel="stylesheet">
+  <link href="./css/404.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="center-screen">
+    <div id="container" class="container">
+      <img src="images/broken-linkedin.jpg">
+      <div class="insert">@insert@</div>
+    </div>
+  </div>
+</body>
+
+</html>

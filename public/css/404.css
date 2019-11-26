@@ -1,0 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.center-screen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  color: #2867B2;
+  font-size: 4em;
+}
+
+.insert {
+  text-align: center;
+}
